@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        nav{
+            background-color: rgb(102,102,102);
+            padding: 3px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.495);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            text-shadow: 1px 1px 1px black;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px black;
+        }
+
+        article{
+            background-color: lightgray;
+        }
+
+        article > aside{
+            background-color: rgb(165,165,165);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+            border-radius: 10px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        section > p{
+            background-color: rgb(108, 108, 108);
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            height: 20px;
+            color: white;
+            padding: 10px;
+            margin: 4px;
+        }
+
+        aside > #dono{
+            background-color: rgb(131, 130, 130);
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            text-shadow: 2px 2px 2px black;
+            padding: 3px;
+        }
+
+        h1{
+            background-color: darkgrey;
+            box-shadow: 2px 2px 2px black;
+            padding: 3px;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.232);
+        }
+
+        div.bola{
+            display: inline-block;
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+            border: 10px solid darkgray;
+            box-shadow: 3px 3px 3px black;
+            margin-right: 120px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+             <aside>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis earum in ratione reprehenderit molestiae, quis maiores vero labore nobis nam assumenda velit repellendus inventore, quia, ex expedita cupiditate maxime beatae?</p>
+                <p id="dono">artigo escrito por José da Silva</p>
+             </aside>   
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por P.L</p>
+    </footer>
+    <div class="bola"></div>
+    <div class="bola"></div>
+    <div class="bola"></div>
+    <div class="bola"></div>
+    <div class="bola"></div>
+    <div class="bola"></div>
+</body>
+</html>
